@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Overview
+namespace zad1
 {
     internal class ArrayCreator
     {
@@ -14,7 +14,7 @@ namespace Overview
             int[] array = new int[size];
             for (int i = 0; i < size; i++)
             {
-                array[i] = random.Next(0, size);
+                array[i] = random.Next(0, size / 3);
             }
             if (sorted)
             {
